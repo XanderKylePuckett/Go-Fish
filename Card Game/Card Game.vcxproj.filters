@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Unit Test Files">
+      <UniqueIdentifier>{a6b2e9a2-5188-430f-8fe1-f8474f5d49a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unit Test Files\Unit Test++">
+      <UniqueIdentifier>{a16cdbee-45ca-4791-8633-9564399bbdb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Menu">
+      <UniqueIdentifier>{b0205d61-fc69-4d81-bfaa-7b43c93bf044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menu">
+      <UniqueIdentifier>{200f0020-08e4-44ee-969f-4edf63576489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="High Scores File">
+      <UniqueIdentifier>{cff52d89-3e84-449f-a941-383d10922d45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Card.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Computer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Deck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Human.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestManager.h">
+      <Filter>Unit Test Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AssertException.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CheckMacros.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Checks.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Config.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CurrentTest.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DeferredTestReporter.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DeferredTestResult.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ExecuteTest.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MemoryOutStream.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ReportAssert.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Test.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TestDetails.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TestList.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TestMacros.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TestReporter.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TestReporterStdout.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TestResults.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TestRunner.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TestSuite.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TimeConstraint.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TimeHelpers.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UnitTest++.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="src\XmlTestReporter.h">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClInclude>
+    <ClInclude Include="TestController.h" />
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseMenu.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CheatsMenu.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Header Files\Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Computer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Deck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Human.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab1_Test.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab2_Test.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab3_Test.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab4_Test.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab5_Test.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestManager.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AssertException.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Checks.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CurrentTest.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DeferredTestReporter.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DeferredTestResult.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MemoryOutStream.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ReportAssert.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Test.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestDetails.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestList.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestReporter.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestReporterStdout.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestResults.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TestRunner.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TimeConstraint.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TimeHelpers.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="src\XmlTestReporter.cpp">
+      <Filter>Unit Test Files\Unit Test++</Filter>
+    </ClCompile>
+    <ClCompile Include="Lab7_Test.cpp">
+      <Filter>Unit Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseMenu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CheatsMenu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Source Files\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="scores3P.bin">
+      <Filter>High Scores File</Filter>
+    </None>
+    <None Include="scores4P.bin">
+      <Filter>High Scores File</Filter>
+    </None>
+    <None Include="scores2P_c.bin">
+      <Filter>High Scores File</Filter>
+    </None>
+    <None Include="scores3P_c.bin">
+      <Filter>High Scores File</Filter>
+    </None>
+    <None Include="scores4P_c.bin">
+      <Filter>High Scores File</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="scores2P.bin">
+      <Filter>High Scores File</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="High Scores.txt">
+      <Filter>High Scores File</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
