@@ -6,14 +6,14 @@
 class Player
 {
 
-	private:
+private:
 
 	char* m_name;
 	Card* m_hand;
 	int m_numCards;
 	const int m_maxCards;
 
-	public:
+public:
 
 	// Default ctor
 	Player( const char* _name = "Player", int _maxCards = MAX_HAND );

@@ -6,7 +6,7 @@ class Card
 	int m_face;		// 2-14, with 14 being the Ace
 	char m_suit;	// 3-6 (3 = Hearts(♥), 4 = Diamonds(♦), 5 = Clubs(♣), 6 = Spades(♠))
 
-	public:
+public:
 
 	// Default constructor
 	Card( int _face = 2, char _suit = 3 );

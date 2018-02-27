@@ -10,7 +10,7 @@
 class Human : public Player
 {
 
-	public:
+public:
 	// Default ctor
 	// In:	_name		The name of the human player
 

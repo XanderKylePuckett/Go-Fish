@@ -3,7 +3,7 @@
 
 class MainMenu : public BaseMenu
 {
-	public:
+public:
 	MainMenu();
 	MainMenu( bool );
 	~MainMenu();

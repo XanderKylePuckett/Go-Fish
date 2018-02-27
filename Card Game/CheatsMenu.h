@@ -3,7 +3,7 @@
 
 class CheatsMenu : public BaseMenu
 {
-	public:
+public:
 	CheatsMenu();
 	~CheatsMenu();
 

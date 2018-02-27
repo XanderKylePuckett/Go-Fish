@@ -12,7 +12,7 @@ class Computer : public Player
 {
 	int compNumber;
 
-	public:
+public:
 	// Default ctor
 	// In:	_name		The name of the computer player
 

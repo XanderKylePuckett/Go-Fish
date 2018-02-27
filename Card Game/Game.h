@@ -19,7 +19,7 @@ struct scoreData
 
 class Game
 {
-	private:
+private:
 
 	// Necessary data members
 	Player* m_players[ MAX_PLAYERS ];	// The players in the game
@@ -36,14 +36,14 @@ class Game
 		bool m_reversed;			// Keeps track of the order of play
 		*/
 
-	// GAMESTATE object to store the game's current state.
+		// GAMESTATE object to store the game's current state.
 	GAMESTATE m_state;
 
 	// Add game data members as necessary
 	//Player *human = m_players[ 0 ];
 	//Player *computer = m_players[ 1 ];
 
-	public:
+public:
 	// Default ctor
 	Game();
 
@@ -60,7 +60,7 @@ class Game
 	}
 
 
-	private:
+private:
 	int AskNumPlayers( void );
 	void Initialize( int );
 	void StartIt( void );

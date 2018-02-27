@@ -26,13 +26,13 @@ Card::~Card()
 		Define the two accessors if they were not inlined.
 		*/
 
-/* Mutators */
+		/* Mutators */
 
-/* DONE (inlined) Lab1:
-		Define the two mutators if they were not inlined.
-		*/
+		/* DONE (inlined) Lab1:
+				Define the two mutators if they were not inlined.
+				*/
 
-// Display a card to the screen
+				// Display a card to the screen
 void Card::Show() const
 {
 	/* DONE Lab1:
@@ -57,17 +57,17 @@ void Card::Show() const
 		Define the six relational operators if they were not inlined.
 		*/
 
-// Insertion operator to display Cards with cout (or any other ostream object)
+		// Insertion operator to display Cards with cout (or any other ostream object)
 
-/* TODO Lab1:
-		Define the insertion operator to display a card.
+		/* TODO Lab1:
+				Define the insertion operator to display a card.
 
-		Make sure that "face" cards (Jack-Ace) display as 'J', 'Q', 'K', 'A'
-		or something similar instead of their numeric value.
+				Make sure that "face" cards (Jack-Ace) display as 'J', 'Q', 'K', 'A'
+				or something similar instead of their numeric value.
 
-		*Note - This unit test is not automated, so make sure you verify
-		the face card is displaying correctly.
-		*/
+				*Note - This unit test is not automated, so make sure you verify
+				the face card is displaying correctly.
+				*/
 
 std::ostream& operator<<( std::ostream& _os, const Card& _rhs )
 {

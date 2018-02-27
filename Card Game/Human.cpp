@@ -91,7 +91,7 @@ int Human::AskValue( const char* _target ) const
 					continue;
 				else
 					switch ( toupper( faceValue[ 0 ] ) )
-				{
+					{
 						case 'A':
 							value = 14;
 							break;
@@ -109,7 +109,7 @@ int Human::AskValue( const char* _target ) const
 								value = ( int )faceValue[ 0 ] - '0';
 							else
 								continue;
-				}
+					}
 				break;
 			}
 			std::cin.clear();

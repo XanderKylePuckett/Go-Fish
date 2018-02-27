@@ -16,7 +16,7 @@ class Deck
 
 	Stack <Card> m_Stack;
 
-	public:
+public:
 
 	// Default ctor
 	Deck();

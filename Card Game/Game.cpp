@@ -136,7 +136,7 @@ void Game::Run()
 					System::Console::ForegroundColor( System::DarkRed );
 					if ( face > 10 )
 						switch ( face )
-					{
+						{
 							case 11:
 								std::cout << 'J';
 								break;
@@ -152,7 +152,7 @@ void Game::Run()
 							default:
 								std::cout << '?';
 								break;
-					}
+						}
 					else
 						std::cout << face;
 					std::cout << '\n';

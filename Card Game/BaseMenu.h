@@ -3,7 +3,7 @@
 
 class BaseMenu
 {
-	protected:
+protected:
 
 	struct SettingsItem
 	{
@@ -26,7 +26,7 @@ class BaseMenu
 	MenuItem m_menuItem[ 32 ];
 	SettingsItem m_settingsItem[ 32 ];
 
-	public:
+public:
 	BaseMenu();
 	virtual ~BaseMenu() = 0;
 

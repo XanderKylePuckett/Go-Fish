@@ -10,15 +10,15 @@
 
 	*/
 
-// Provides an alias for a datatype
-//typedef Card Item;
+	// Provides an alias for a datatype
+	//typedef Card Item;
 
-// A FILO data structure implemented using a 
-// singly linked list
+	// A FILO data structure implemented using a 
+	// singly linked list
 template <typename Item>
 class Stack
 {
-	private:
+private:
 
 	// Without these, you can't have a linked list
 	struct Node
@@ -32,7 +32,7 @@ class Stack
 	int m_currSize;		// Number of nodes in the stack
 
 
-	public:
+public:
 
 	// Def ctor
 	// Creates an empty stack
